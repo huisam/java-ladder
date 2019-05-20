@@ -1,6 +1,6 @@
 package laddergame.domain;
 
-import laddergame.controller.LadderGenerator;
+import laddergame.factory.LadderGenerator;
 import laddergame.controller.rule.Rule;
 
 import java.util.HashMap;
@@ -13,13 +13,6 @@ public class LadderGame {
 
     public LadderGame(final Tags members, final Tags prizes,
                       final int height, final Rule rule) {
-        this.members = members;
-        this.prizes = prizes;
-        this.ladder = LadderGenerator.generateLadder(height, members.size(), rule);
-    }
-
-    public LadderGame(final Tags members, final Tags prizes,
-                      final Rule rule, final int height) {
         this.members = members;
         this.prizes = prizes;
         this.ladder = LadderGenerator.generateLadder(height, members.size(), rule);

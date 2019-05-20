@@ -81,12 +81,12 @@ public class LadderGameViewMaker {
     }
 
     private static String makeLadderView(final int size, final char delimiter) {
-        StringBuilder connectPoint = new StringBuilder();
+        StringBuilder ladderView = new StringBuilder();
 
         for (int i = 0; i < size; i++) {
-            connectPoint.append(delimiter);
+            ladderView.append(delimiter);
         }
-        return connectPoint.toString();
+        return ladderView.toString();
     }
 
 }

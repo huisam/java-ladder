@@ -1,7 +1,8 @@
-package laddergame.domain;
+package laddergame.factory;
 
-import laddergame.controller.LineGenerator;
 import laddergame.controller.rule.AlwaysCreateRule;
+import laddergame.domain.Line;
+import laddergame.domain.Point;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

@@ -13,7 +13,7 @@ class LadderGameTest {
         /* Given */
         Tags members = new Tags(Arrays.asList("pobi", "cu"));
         Tags prizes = new Tags(Arrays.asList("1000", "100"));
-        LadderGame ladderGame = new LadderGame(members, prizes, new AlwaysCreateRule(), 5);
+        LadderGame ladderGame = new LadderGame(members, prizes, 5, new AlwaysCreateRule());
 
         /* Then */
         LadderGameResult result = ladderGame.startGame();

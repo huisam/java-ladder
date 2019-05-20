@@ -1,4 +1,4 @@
-package laddergame.util;
+package laddergame.controller.rule;
 
 import java.util.Random;
 

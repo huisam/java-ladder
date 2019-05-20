@@ -1,6 +1,6 @@
 package laddergame.domain;
 
-import laddergame.controller.LadderGenerator;
+import laddergame.factory.LadderGenerator;
 import laddergame.controller.rule.AlwaysCreateRule;
 import org.junit.jupiter.api.Test;
 

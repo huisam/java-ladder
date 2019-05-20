@@ -1,4 +1,4 @@
-package laddergame.controller;
+package laddergame.factory;
 
 import laddergame.controller.rule.Rule;
 import laddergame.domain.Ladder;
